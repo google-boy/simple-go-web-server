@@ -1,4 +1,4 @@
-# Simple web serve
+# Simple web server
 
 This document describes a simple web server written in Golang.
 The server accepts **HTTPS** connection on port 8443 (locally).
