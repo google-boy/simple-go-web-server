@@ -26,7 +26,7 @@ func main() {
 	http.Handle("/", http.FileServer(http.Dir("./static")))
 	http.HandleFunc("/increment", incrementCounter)
 	http.HandleFunc("/hello", func(rw http.ResponseWriter, r *http.Request) {
-		fmt.Fprintf(rw, "Hello from Golang server")
+		fmt.Fprintf(rw, "Server is up and running, Happy serving!!")
 	})
 	
 	fmt.Println("Server running running at https://localhost:8443")
